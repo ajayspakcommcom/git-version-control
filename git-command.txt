@@ -1,0 +1,105 @@
+1. Repository Setup
+	git init
+	git clone <repo-url>
+	git remote -v
+	git remote add origin <url>
+
+
+2. Checking Status & History
+	git status
+	git log
+	git log --oneline --graph --decorate --all
+	git diff
+	git diff --staged
+
+
+3. Branching
+	git branch
+	git branch -a
+	git branch <branch-name>
+	git checkout <branch-name>
+	git checkout -b <branch-name>
+	git switch <branch-name>
+	git switch -c <branch-name>
+
+
+4. Staging & Committing
+	git add .
+	git add <file>
+	git commit -m "message"
+	git commit -am "message"
+
+
+
+5. Pushing & Pulling
+	git push
+	git push -u origin <branch>
+	git pull
+	git pull --rebase
+
+
+6. Merging & Rebasing
+	git merge <branch>
+	git rebase <branch>
+	git rebase --continue
+	git rebase --abort
+
+
+7. Undo, Reset & Fix Mistakes
+	git restore <file>
+	git restore --staged <file>
+	git reset HEAD~1
+	git reset --hard
+	git revert <commit>
+
+
+8. Stashing (Temporary Work Save)
+	git stash
+	git stash list
+	git stash apply
+	git stash drop
+	git stash pop
+
+
+9. Working With Remote Branches
+	git fetch
+	git fetch --all --prune
+	git pull origin <branch>
+	git push origin --delete <branch>
+
+
+10. Tags & Releases
+	git tag
+	git tag <version>
+	git tag -a <version> -m "message"
+	git push origin <tag>
+	git push origin --tags
+
+
+11. Viewing Changes & Blame
+	git show <commit>
+	git blame <file>
+	git log -p <file>
+
+
+12. Cleaning Untracked Files
+	git clean -n
+	git clean -f
+
+
+13. Cherry-Pick (Copy Specific Commit)
+	git cherry-pick <commit>
+
+14. Submodules (Used in Large Projects)
+	git submodule add <repo>
+	git submodule update --init --recursive
+
+
+15. Industry Power Commands (Very Common)
+	git pull --rebase origin main
+	git push --force-with-lease
+	git merge --no-ff <branch>
+	git log --oneline
+	git diff origin/main...HEAD
+
+
