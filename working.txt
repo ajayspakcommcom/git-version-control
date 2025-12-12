@@ -1,0 +1,16 @@
+Option A — Start new feature
+git checkout main
+git pull
+git checkout -b feature/new-ui
+
+
+Option B — Do a bugfix and release
+git checkout -b hotfix/fix-service
+After merge, tag:
+	v1.0.1
+
+
+Option C — Create a new release version
+If you add a new feature:
+v1.1.0
+
