@@ -1,6 +1,1 @@
 - console.log("Helloq")
-+ console.log("Hello World")
-+ console.log("Hello World")
-+ console.log("Hello World")
-+ console.log("Hello World")
-+ console.log("Hello World1")
